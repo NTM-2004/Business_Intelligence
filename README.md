@@ -39,30 +39,4 @@ The data warehouse uses a **Star Schema** design for optimal query performance a
   <img src="report/images/erd.png" width="700" alt="Data Warehouse Star Schema">
 </p>
 
-```text
-                        ┌───────────────────┐
-                        │     Dim_Date      │
-                        │─────────────────  │
-                        │ PK: DateKey       │
-                        │ Year              │
-                        │ Month             │
-                        │ DayOfWeek         │
-                        └────────┬──────────┘
-                                 │
-┌──────────────────┐    ┌────────┴──────────────┐    ┌──────────────────┐
-│   Dim_Customer   │    │      Fact_Sales       │    │   Dim_Product    │
-│────────────────  │    │───────────────────    │    │────────────────  │
-│ PK: customer_id  │◄───│ PK: order_item_id     │───►│ PK: product_id   │
-│ zip_code         │    │ PK: order_id          │    │ category_name    │
-│ city             │    │ FK: customer_id       │    │ weight_g         │
-│ state            │    │ FK: product_id        │    │ dimensions       │
-└──────────────────┘    │ FK: order_date        │    └──────────────────┘
-                        │ price                 │
-                        │ freight_value         │
-                        │ main_payment_type     │
-                        │ payment_installments  │
-                        │ review_score          │
-                        └───────────────────────┘
-```
-
 > `order_id` is kept in the fact table as a **degenerate dimension** — it carries analytical value (distinguishing specific orders) but has no separate dimension table.
