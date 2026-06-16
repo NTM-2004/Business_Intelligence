@@ -4,14 +4,14 @@
 **Course:** Business Intelligence | **Class:** E22HTTT | **Group:** 6  
 **Contributors:** Nguyễn Tuấn Minh (B22DCKH077) & Nguyễn Xuân Kiên (B22DCKH062)
 
-## 📈 Dashboard Preview
+## Dashboard Preview
 
 <p align="center">
   <!-- Hãy upload ảnh dashboard.png của bạn vào thư mục images trên repo -->
   <img src="report/images/dashboard.png" width="900" alt="Power BI Dashboard">
 </p>
 
-## 📦 Dataset
+## Dataset
 
 Raw data: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle). It represents nearly 100,000 delivered orders placed between 2016 and 2018.
 
@@ -29,7 +29,7 @@ Raw data: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/
 
 ---
 
-## 🗄️ Data Warehouse Schema (Star Schema)
+## Data Warehouse Schema (Star Schema)
 
 The data warehouse uses a **Star Schema** design for optimal query performance and analytical simplicity within Power BI.
 
