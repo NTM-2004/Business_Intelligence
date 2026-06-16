@@ -26,8 +26,6 @@ Raw data: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/
 | `olist_order_reviews_dataset.csv` | Customer review scores (1-5 stars) |
 | `product_category_name_translation.csv` | Portuguese → English category name mapping |
 
-> **Note:** All raw CSV files live in the `Data/` directory and are excluded from version control via `.gitignore`.
-
 ---
 
 ## Data Warehouse Schema (Star Schema)
