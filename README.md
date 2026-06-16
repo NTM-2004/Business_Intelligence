@@ -1,8 +1,9 @@
 # E-Commerce Business Intelligence
-
-**Institution:** The Posts and Telecommunications Institute of Technology (PTIT)  
-**Course:** Business Intelligence | **Class:** E22HTTT | **Group:** 6  
-**Contributors:** Nguyễn Tuấn Minh (B22DCKH077) & Nguyễn Xuân Kiên (B22DCKH062)
+ 
+**Course:** Business Intelligence 
+**Class:** E22HTTT 
+**Group:** 6  
+**Members:** Nguyễn Tuấn Minh (B22DCKH077) & Nguyễn Xuân Kiên (B22DCKH062)
 
 ## Dashboard Preview
 
