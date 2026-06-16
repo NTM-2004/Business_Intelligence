@@ -1,7 +1,7 @@
 # E-Commerce Business Intelligence
  
-**Course:** Business Intelligence 
-**Class:** E22HTTT 
+**Course:** Business Intelligence  
+**Class:** E22HTTT  
 **Group:** 6  
 **Members:** Nguyễn Tuấn Minh (B22DCKH077) & Nguyễn Xuân Kiên (B22DCKH062)
 
@@ -39,4 +39,3 @@ The data warehouse uses a **Star Schema** design for optimal query performance a
   <img src="report/images/erd.png" width="700" alt="Data Warehouse Star Schema">
 </p>
 
-> `order_id` is kept in the fact table as a **degenerate dimension** — it carries analytical value (distinguishing specific orders) but has no separate dimension table.
